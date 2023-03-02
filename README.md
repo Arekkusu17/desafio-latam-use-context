@@ -1,11 +1,12 @@
-Desafío uso de Context API - Natural Pic - Desafío Latam
+# Desafío uso de Context API - Natural Pic - Desafío Latam
 The meaning of this challenge is to validate our knowledge using Context API.
 
-Site of deploy: https://magical-pothos-712d69.netlify.app
-Getting Started with Create React App
+- Site of deploy: https://magical-pothos-712d69.netlify.app
+
+## Getting Started with Create React App
 This project was bootstrapped with Create React App.
 
-Available Scripts
+## Available Scripts
 In the project directory, you can run:
 
 npm start
