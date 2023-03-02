@@ -4,7 +4,7 @@
 }
 
 .grid-columns-home {
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 .grid-columns-fav {
   grid-template-columns: repeat(4, 1fr);
@@ -12,33 +12,32 @@
 
 /* RESPONSIVE GRID */
 
-/* @media only screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .grid-columns-home {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .grid-columns-fav {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media only screen and (max-width: 576px) {
-  .grid-columns-5 {
-    grid-template-columns: repeat(3, 1fr);
+@media screen and (max-width: 768px) {
+  .grid-columns-home {
+    grid-template-columns: repeat(2, 1fr);
   }
-  .grid-columns-4 {
+  .grid-columns-fav {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media screen and (max-width: 425px) { /* Apply this style for smaller screens */
-  /* .grid-columns-home { */
-    /* grid-template-columns: repeat(1, 1fr); */
-  /* } */
-  /* .grid-columns-fav { */
-    /* grid-template-columns: repeat(1, 1fr); */
-  /* } */
-/* } */
- 
+@media screen and (max-width: 576px) { /* Apply this style for smaller screens */
+  .grid-columns-home {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .grid-columns-fav {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 
 
 .galeria .foto {
